@@ -1,7 +1,11 @@
 #退款接口对接
+
 ##C端
+
 ###url http://测试环境:9021/charter/refund/create
+
 ### 入参
+
 {"businessType":2,"orderId":"15807845749317589","refundReasonExplain":"不想要了22","refundReasonType":1,"refundType":1,"travelIds":[949,950],"custId":"1912058270543763"} 
 
     @ApiModelProperty(value = "订单编号")
@@ -40,6 +44,7 @@
     private String  custId ;
     
 ### 返回参数
+
 {"data":null,"code":"000000","msg":null,"success":true} 
 
     @ApiModelProperty(value = "数据",example = "")
