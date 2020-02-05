@@ -60,5 +60,6 @@
     private Boolean success;
     
     
-##B端（目前可以调用相同的地址）
+## B端 http://测试环境:9027/saasManager/refund/create
+其他的与C端一致
    
